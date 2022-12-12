@@ -1,28 +1,35 @@
-html, body{
+html,
+body {
     position: relative;
     overflow-x: hidden;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     display: grid;
     background-color: #FFF9E3;
 }
-header{
+
+header {
     background-color: #EF5322;
     height: 114px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
 }
-section{
+
+section {
     height: 100vh;
 }
+
 footer {
     position: absolute;
     height: 50px;
@@ -34,18 +41,24 @@ footer {
     background-color: #FFF9E3;
     border-top: 2px solid #EF5322;
 }
+
+
 /* MOBILE */
+
 @media (max-width:640px) {
-    .home{
+    .home {
         height: 400px;
     }
-    .quem-somos{
+    .quem-somos {
         height: 1300px;
     }
-    .cardapio{
+    .cardapio {
         height: 1600px;
     }
-    .restaurantes{
+    .restaurantes {
         height: 1000px;
+    }
+    .fale-conosco {
+        height: 5px;
     }
 }

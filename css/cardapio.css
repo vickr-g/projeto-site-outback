@@ -1,10 +1,11 @@
-.cardapio{
+.cardapio {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 64px;
 }
-.container-title-cardapio{
+
+.container-title-cardapio {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,59 +13,72 @@
     font-family: 'Bebas Neue', cursive;
     color: #FFFFFF;
 }
-.cardapio-title{
+
+.cardapio-title {
     position: absolute;
 }
-.fundo-cardapio{
+
+.fundo-cardapio {
     width: 100%;
     height: 165px;
 }
-.container-cardapio{
+
+.container-cardapio {
     display: flex;
     justify-content: space-around;
 }
-.container-cardapio-itens{
+
+.container-cardapio-itens {
     display: flex;
     gap: 16px;
     align-items: center;
 }
-.title-comidas{
+
+.title-comidas {
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
 }
-.texto-comida{
+
+.texto-comida {
     display: flex;
     flex-direction: column;
     gap: 28px;
 }
-.description-car{
+
+.description-car {
     width: 300px;
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
 }
+
+
 /* MOBILE */
+
 @media (max-width:640px) {
-    .container-title-cardapio{
+    .container-title-cardapio {
         font-size: 2.5rem;
     }
-    .container-cardapio{
+    .container-cardapio {
         display: flex;
         flex-direction: column;
         text-align: center;
         gap: 64px;
     }
-    .container-cardapio-itens{
+    .container-cardapio-itens {
         flex-direction: column;
     }
-    .image-item{
+    .image-item {
         width: 120px;
     }
-    .title-comidas{
+    .title-comidas {
         font-family: 'Inter', sans-serif;
         font-size: 1.5rem;
     }
-    .description-car{
+    .description-car {
         font-family: 'Inter', sans-serif;
         font-size: 1rem;
+    }
+    .cardapio-title {
+        font-size: 2.5rem;
     }
 }
